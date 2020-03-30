@@ -1,0 +1,33 @@
+; Version : LOCAL
+; Job     : D:\Job\SolidRun\ARMighty-Rev-2.1\PCB\ARMighty.pcb
+; User    : VENUS:itzik
+; Date    : Tue Sep 01 09:06:44 2015
+; Format  : 3.3 / Absolute / MM / Leading
+; Contents: Thru / Punch / Plated
+M48
+METRIC,TZ
+FMAT,2
+ICI,OFF
+; T21 Slot 1.0500 x 0.6600 (MM) R 90
+; T22 Slot 1.2000 x 0.7000 (MM) R 90
+; T25 Slot 4.0000 x 1.0000 (MM) R 0
+; T24 Slot 4.0000 x 1.0000 (MM) R 90
+; T23 Slot 4.5000 x 1.0000 (MM) R 0
+%
+M71
+G90
+G93X0Y0
+T21
+X26404Y5050
+X31254
+T22
+X31554Y2020
+X26104
+T24
+X222909Y10089
+T25
+X218209Y7089
+T23
+X218209Y13089
+T00
+M30
